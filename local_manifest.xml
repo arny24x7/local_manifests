@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote  name="github"
+         fetch="git://github.com/"
+         review="gerrit.aokp.co"/>
+
+
+<!-- REMOVALS -->
+<remove-project name="AOKP/vendor_motorola" />
+<remove-project name="AOKP/vendor_aokp" />
+<remove-project name="AOKP/build" />
+
+<!-- DEVICE -->
+<project name="kularny/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="aokp4.4" />
+<project name="kularny/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="aokp4.4" />
+     
+<!-- VENDOR -->
+<project name="kularny/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0" />
+<project name="kularny/vendor_aokp/" path="vendor/aokp" remote="github" revision="kitkat" />
+     
+<!-- KERNEL -->
+<project name="kularny/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="github" revision="JBX_30X" />
+
+<!-- BUILD -->
+<project name="kularny/build" path="build" remote="github" revision="kitkat" groups="pdk">
+  <copyfile src="core/root.mk" dest="Makefile" />
+</project>
+
+</manifest>
