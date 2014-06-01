@@ -3,28 +3,43 @@
 
 <remote  name="github"
          fetch="git://github.com/"
-         review="gerrit.aokp.co"/>
+         review="https://gerrit.slimroms.net/" />
 
 
 <!-- REMOVALS -->
-<remove-project name="AOKP/vendor_motorola" />
-<remove-project name="AOKP/vendor_aokp" />
-<remove-project name="AOKP/build" />
+<remove-project name="vendor_twisted" />
+<remove-project name="twisted_build" />
+<remove-project name="SlimRoms/android_external_wpa_supplicant_8" />
+<remove-project name="SlimRoms/hardware_libhardware_legacy" />
+<remove-project name="SlimRoms/hardware_ti_omap4xxx" />
+<remove-project name="SlimRoms/hardware_ti_wlan" />
+<remove-project name="SlimRoms/hardware_ti_wpan" />
+<remove-project name="SlimRoms/android_prebuilt" />
+<remove-project name="SlimRoms/android_system_netd" />
 
 <!-- DEVICE -->
-<project name="kularny/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="aokp4.4" />
-<project name="kularny/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="aokp4.4" />
+<project name="kularny/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="TwK4.4" />
+<project name="kularny/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="TwK4.4" />
      
 <!-- VENDOR -->
 <project name="kularny/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0" />
-<project name="kularny/vendor_aokp/" path="vendor/aokp" remote="github" revision="kitkat" />
+<project name="kularny/vendor_twisted" path="vendor/twisted" remote="github" revision="tk4.4" />
      
 <!-- KERNEL -->
 <project name="kularny/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="github" revision="JBX_30X" />
 
 <!-- BUILD -->
-<project name="kularny/build" path="build" remote="github" revision="kitkat" groups="pdk">
-  <copyfile src="core/root.mk" dest="Makefile" />
+<project name="kularny/twisted_build" path="build" remote="github" revision="tk4.4" >
+    <copyfile src="core/root.mk" dest="Makefile" />
 </project>
+
+<!-- EXTRAS -->
+<project name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="github" revision="cm-11.0" />
+<project name="CyanogenMod/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
+<project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github" revision="cm-11.0" />
+<project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github" revision="cm-11.0" />
+<project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" remote="github" revision="cm-11.0" />
+<project name="CyanogenMod/android_prebuilt" path="prebuilt" remote="github" revision="cm-11.0" />
+<project name="CyanogenMod/android_system_netd" path="system/netd" remote="github" revision="cm-11.0" />
 
 </manifest>
