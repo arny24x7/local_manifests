@@ -9,6 +9,7 @@
 <!-- REMOVALS -->
 <remove-project name="vendor_twisted" />
 <remove-project name="twisted_build" />
+<remove-project name="frameworks_base" />
 <remove-project name="SlimRoms/android_external_wpa_supplicant_8" />
 <remove-project name="SlimRoms/hardware_libhardware_legacy" />
 <remove-project name="SlimRoms/hardware_ti_omap4xxx" />
@@ -34,6 +35,7 @@
 </project>
 
 <!-- EXTRAS -->
+<project name="kularny/frameworks_base" path="frameworks/base" remote="twisted" revision="tk4.4" />
 <project name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="github" revision="cm-11.0" />
 <project name="CyanogenMod/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
 <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="cm-11.0" />
