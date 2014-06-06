@@ -17,6 +17,7 @@
 <remove-project name="SlimRoms/hardware_ti_wpan" />
 <remove-project name="SlimRoms/android_prebuilt" />
 <remove-project name="SlimRoms/android_system_netd" />
+<remove-project name="platform/packages/apps/Gallery" />
 
 <!-- DEVICE -->
 <project name="kularny/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="TwK4.4" />
