@@ -4,6 +4,7 @@
 
 <!-- REMOVALS -->
 <remove-project name="vendor_du" />
+<remove-project name="build" />
 <remove-project name="android_external_wpa_supplicant_8" />
 <remove-project name="android_hardware_libhardware_legacy" />
 <remove-project name="android_hardware_ti_omap4xxx" />
@@ -21,6 +22,11 @@
      
 <!-- KERNEL -->
 <project name="kularny/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="github" revision="JBX_30X" />
+
+<!-- BUILD -->
+<project name="kularny/du_build" path="build" remote="github" revision="du-44" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+</project>
 
 <!-- EXTRAS -->
 <project name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="github" revision="cm-11.0" />
