@@ -6,6 +6,7 @@
 <remove-project name="SOKP/vendor_sokp" />
 <remove-project name="SOKP/build" />
 <remove-project name="AICP/hardware_libhardware_legacy" />
+<remove-project name="TheMuppets/proprietary_vendor_motorola" />
 
 <!-- DEVICE -->
 <project name="kularny/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="sokp4.4" />
