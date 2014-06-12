@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+
+<!-- REMOVALS -->
+<remove-project name="SOKP/vendor_sokp" />
+<remove-project name="SOKP/build" />
+<remove-project name="AICP/hardware_libhardware_legacy" />
+
 <!-- DEVICE -->
-<project name="kularny/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="cm-11.0" />
-<project name="kularny/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="cm-11.0" />
+<project name="kularny/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="sokp4.4" />
+<project name="kularny/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="sokp4.4" />
      
 <!-- VENDOR -->
 <project name="kularny/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0" />
+<project name="kularny/vendor_sokp" path="vendor/sokp" remote="github" revision="sokp-443" />
      
 <!-- KERNEL -->
 <project name="kularny/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="github" revision="JBX_30X" />
+
+<!-- BUILD -->
+<project name="kularny/sokp_build" path="build" remote="github" revision="sokp-443" groups="pdk">
+    <copyfile src="core/root.mk" dest="Makefile" />
+</project>
+
+<!-- EXTRAS -->
+<project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="cm-11.0" />
+<project name="CyanogenMod/android_prebuilt" path="prebuilt" remote="github" revision="cm-11.0" />
 
 </manifest>
