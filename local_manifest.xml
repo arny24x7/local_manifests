@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+
+<!-- REMOVALS -->
+<remove-project name="android_external_wpa_supplicant_8" />
+<remove-project name="android_hardware_libhardware_legacy" />
+<remove-project name="android_hardware_ti_omap4xxx" />
+<remove-project name="platform/hardware/ti/wlan" />
+<remove-project name="platform/hardware/ti/wpan" />
+<remove-project name="platform/system/netd" />
+
 <!-- DEVICE -->
-<project name="kularny/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="cm-11.0" />
-<project name="kularny/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="cm-11.0" />
+<project name="kularny/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="omni4.4" />
+<project name="kularny/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="omni4.4" />
      
 <!-- VENDOR -->
 <project name="kularny/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0" />
      
 <!-- KERNEL -->
 <project name="kularny/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="github" revision="JBX_30X" />
+
+<!-- EXTRAS -->
+<project name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="github" revision="cm-11.0" />
+<project name="CyanogenMod/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
+<project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="cm-11.0" />
+<project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github" revision="cm-11.0" />
+<project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github" revision="cm-11.0" />
+<project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" remote="github" revision="cm-11.0" />
+<project name="CyanogenMod/android_system_netd" path="system/netd" remote="github" revision="cm-11.0" />
+<project name="CyanogenMod/android_prebuilt" path="prebuilt" remote="github" revision="cm-11.0" />
+<project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-11.0" />
+<project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-11.0" />
 
 </manifest>
