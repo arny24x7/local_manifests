@@ -14,6 +14,7 @@
 
 <!-- DEVICE -->
 <project name="kularny/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="du4.4" />
+<project name="kularny/android_device_motorola_spyder" path="device/motorola/spyder" remote="github" revision="du4.4" />
 <project name="kularny/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="du4.4" />
      
 <!-- VENDOR -->
