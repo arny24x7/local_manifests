@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remote  name="github"
+         fetch="git://github.com/"
+         review="review.mfunz.com"/>
+
+
+<!-- REMOVALS -->
+<remove-project name="MoKee/android_frameworks_native" />
+<remove-project name="MoKee/android_frameworks_av" />
+<remove-project name="MoKee/android_bionic" />
+<remove-project name="MoKee/android_build" />
+<remove-project name="MoKee/android_bootable_recovery" />
+<remove-project name="MoKee/android_vendor_mk" />
+<remove-project name="MoKee/android_external_sepolicy" />
+
 <!-- DEVICE -->
-<project name="kularny/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="cm-11.0" />
-<project name="kularny/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="cm-11.0" />
+<project name="kularny/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="mkl-mr1" />
+<project name="kularny/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="mkl-mr1" />
      
 <!-- VENDOR -->
-<project name="kularny/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0" />
+<project name="kularny/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="mkl-mr1" />
+<project name="kularny/android_vendor_mk" path="vendor/mk" remote="github" revision="mkl-mr1" />
      
 <!-- KERNEL -->
-<project name="kularny/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="github" revision="JBX_30X" />
+<project name="kularny/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="mkl-mr1" />
+
+<!-- BUILD -->
+<project name="kularny/android_build" path="build" remote="github" revision="mkl-mr1" groups="pdk">
+  <copyfile src="core/root.mk" dest="Makefile" />
+</project>
+
+<!-- EXTRAS -->
+<project name="kularny/android_frameworks_native" path="frameworks/native" remote="github" revision="mkl-mr1" groups="pdk" />
+<project name="kularny/android_frameworks_av" path="frameworks/av" remote="github" revision="mkl-mr1" groups="pdk" />
+<project name="kularny/android_hardware_samsung" path="hardware/samsung" remote="github" revision="mkl-mr1" />
+<project name="kularny/android_bionic" path="bionic" remote="github" revision="mkl-mr1" groups="pdk" />
+<project name="kularny/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-5.1" groups="pdk-cw-fs" />
+<project name="kularny/android_external_sepolicy" path="external/sepolicy" remote="github" revision="mkl-mr1" groups="pdk" />
 
 </manifest>
