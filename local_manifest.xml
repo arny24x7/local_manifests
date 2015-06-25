@@ -11,6 +11,7 @@
 <remove-project name="MoKee/android_frameworks_av" />
 <remove-project name="MoKee/android_bionic" />
 <remove-project name="MoKee/android_build" />
+<remove-project name="ThirdProject/android_libcore" />
 <remove-project name="MoKee/android_bootable_recovery" />
 <remove-project name="MoKee/android_vendor_mk" />
 <remove-project name="MoKee/android_external_sepolicy" />
@@ -27,16 +28,17 @@
 <project name="kularny/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="mkl-mr1" />
 
 <!-- BUILD -->
-<project name="kularny/android_build" path="build" remote="github" revision="mkl-mr1" groups="pdk">
+<project name="kularny/android_build_mk" path="build" remote="github" revision="mkl-mr1" groups="pdk">
   <copyfile src="core/root.mk" dest="Makefile" />
 </project>
 
 <!-- EXTRAS -->
-<project name="kularny/android_frameworks_native" path="frameworks/native" remote="github" revision="mkl-mr1" groups="pdk" />
-<project name="kularny/android_frameworks_av" path="frameworks/av" remote="github" revision="mkl-mr1" groups="pdk" />
+<project name="CyanogenMod/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-12.1" groups="pdk" />
+<project name="CyanogenMod/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-12.1" groups="pdk" />
+<project name="CyanogenMod/android_bionic" path="bionic" remote="github" revision="cm-12.1" groups="pdk" />
 <project name="kularny/android_hardware_samsung" path="hardware/samsung" remote="github" revision="mkl-mr1" />
-<project name="kularny/android_bionic" path="bionic" remote="github" revision="mkl-mr1" groups="pdk" />
+<project name="kularny/android_libcore_mk" path="libcore" remote="github" revision="mkl-mr1" />
 <project name="kularny/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-5.1" groups="pdk-cw-fs" />
-<project name="kularny/android_external_sepolicy" path="external/sepolicy" remote="github" revision="mkl-mr1" groups="pdk" />
+<project name="kularny/android_external_sepolicy_mk" path="external/sepolicy" remote="github" revision="mkl-mr1" groups="pdk" />
 
 </manifest>
