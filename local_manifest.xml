@@ -18,7 +18,7 @@
 <project name="kularny/android_vendor_du" path="vendor/du" remote="github" revision="lollipop-caf" />
      
 <!-- KERNEL -->
-<project name="kularny/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lollipop-caf" />
+<project name="kularny/AOSP-LP-Kernel" path="kernel/samsung/smdk4412" remote="github" revision="AOSP-LP-Kernel+" />
 
 <!-- BUILD -->
 <project name="kularny/android_build_du" path="build" groups="pdk,tradefed" remote="github" revision="lollipop-caf" >
