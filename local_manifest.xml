@@ -3,6 +3,8 @@
 
 <!-- REMOVALS -->
 <remove-project name="android_frameworks_av" />
+<remove-project name="android_frameworks_native" />
+<remove-project name="android_bionic" />
 <remove-project name="android_build" />
 <remove-project name="android_bootable_recovery" />
 <remove-project name="android_vendor_du" />
@@ -26,7 +28,9 @@
 </project>
 
 <!-- EXTRAS -->
-<project name="CyanogenMod/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-12.1" groups="pdk" />
+<project name="kularny/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-12.1" groups="pdk" />
+<project name="kularny/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-12.1" groups="pdk" />
+<project name="kularny/android_bionic" path="bionic" remote="github" revision="cm-12.1" groups="pdk" />
 <project name="CyanogenMod/android_external_lz4" path="external/lz4" remote="github" revision="cm-12.1" />
 <project name="kularny/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-5.1" groups="pdk" />
 <project name="kularny/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lollipop-caf" />
