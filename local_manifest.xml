@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remote  name="bitbucket"
+         fetch="https://bitbucket.org/" />
+
 <!-- REMOVALS -->
 <remove-project name="android_frameworks_av" />
 <remove-project name="android_frameworks_native" />
@@ -28,13 +31,14 @@
 </project>
 
 <!-- EXTRAS -->
-<project name="kularny/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-12.1" groups="pdk" />
-<project name="kularny/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-12.1" groups="pdk" />
-<project name="kularny/android_bionic" path="bionic" remote="github" revision="cm-12.1" groups="pdk" />
+<project name="kularny/android_frameworks_av" path="frameworks/av" remote="github" revision="lollipop-caf" groups="pdk" />
+<project name="kularny/android_frameworks_native" path="frameworks/native" remote="github" revision="lollipop-caf" groups="pdk" />
+<project name="kularny/android_bionic" path="bionic" remote="github" revision="lollipop-caf" groups="pdk" />
 <project name="CyanogenMod/android_external_lz4" path="external/lz4" remote="github" revision="cm-12.1" />
 <project name="kularny/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-5.1" groups="pdk" />
 <project name="kularny/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lollipop-caf" />
 <project name="kularny/android_external_sepolicy_du" path="external/sepolicy" remote="github" revision="lollipop-caf" groups="pdk" />
 <project name="kularny/android_libcore_du" path="libcore" remote="github" revision="lollipop-caf" groups="pdk" />
+<project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
 
 </manifest>
