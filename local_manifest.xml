@@ -44,7 +44,7 @@
 <project name="kularny/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="lp-mr1" />
 <project name="kularny/android_external_sepolicy_xenonhd" path="external/sepolicy" remote="github" revision="lp-mr1" groups="pdk" />
 <project name="kularny/android_libcore_xenonhd" path="libcore" remote="github" revision="lp-mr1" groups="pdk" />
-<project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="aosp" revision="refs/tags/android-5.1.1_r13" groups="broadcom_wlan" />
+<project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="aosp" revision="refs/tags/android-5.1.1_r18" groups="broadcom_wlan" />
 <project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" groups="pdk,linux,arm" />
 
 </manifest>
