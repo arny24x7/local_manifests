@@ -6,6 +6,7 @@
 
 <!-- REMOVALS -->
 <remove-project name="android_frameworks_av" />
+<remove-project name="android_frameworks_base" />
 <remove-project name="android_frameworks_native" />
 <remove-project name="android_bionic" />
 <remove-project name="android_bootable_recovery" />
@@ -32,6 +33,7 @@
 
 <!-- EXTRAS -->
 <project name="kularny/android_frameworks_av" path="frameworks/av" remote="github" revision="lollipop-caf" groups="pdk" />
+<project name="kularny/android_frameworks_base_du" path="frameworks/base" remote="github" revision="lollipop-caf" groups="pdk-cw-fs" />
 <project name="kularny/android_frameworks_native" path="frameworks/native" remote="github" revision="lollipop-caf" groups="pdk" />
 <project name="kularny/android_bionic" path="bionic" remote="github" revision="lollipop-caf" groups="pdk" />
 <project name="kularny/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-5.1" groups="pdk" />
