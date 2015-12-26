@@ -14,6 +14,7 @@
 <remove-project name="android_build" />
 <remove-project name="android_external_sepolicy" />
 <remove-project name="android_libcore" />
+<remove-project name="platform/hardware/broadcom/wlan" />
 
 <!-- DEVICE -->
 <project name="kularny/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="lollipop-caf" />
@@ -42,6 +43,7 @@
 <project name="kularny/android_external_sepolicy_du" path="external/sepolicy" remote="github" revision="lollipop-caf" groups="pdk" />
 <project name="kularny/android_libcore_du" path="libcore" remote="github" revision="lollipop-caf" groups="pdk" />
 <project name="CyanogenMod/android_external_lz4" path="external/lz4" remote="github" revision="cm-12.1" />
+<project name="CyanogenMod/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="github" revision="cm-12.1" groups="broadcom_wlan" />
 <project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" groups="pdk,linux,arm" />
 
 </manifest>
