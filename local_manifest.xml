@@ -8,7 +8,6 @@
 <remove-project name="android_frameworks_av" />
 <remove-project name="android_frameworks_base" />
 <remove-project name="android_frameworks_native" />
-<remove-project name="android_frameworks_opt_net_wifi" />
 <remove-project name="android_bionic" />
 <remove-project name="android_bootable_recovery" />
 <remove-project name="android_vendor_du" />
@@ -37,14 +36,13 @@
 <project name="kularny/android_frameworks_av" path="frameworks/av" remote="github" revision="lollipop-caf" groups="pdk" />
 <project name="kularny/android_frameworks_base_du" path="frameworks/base" remote="github" revision="lollipop-caf" groups="pdk-cw-fs" />
 <project name="kularny/android_frameworks_native" path="frameworks/native" remote="github" revision="lollipop-caf" groups="pdk" />
-<project name="kularny/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="lollipop-caf" groups="pdk" />
 <project name="kularny/android_bionic" path="bionic" remote="github" revision="lollipop-caf" groups="pdk" />
 <project name="kularny/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-5.1" groups="pdk" />
 <project name="kularny/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lollipop-caf" />
 <project name="kularny/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="lollipop-caf" />
 <project name="kularny/android_external_sepolicy_du" path="external/sepolicy" remote="github" revision="lollipop-caf" groups="pdk" />
 <project name="kularny/android_libcore_du" path="libcore" remote="github" revision="lollipop-caf" groups="pdk" />
-<project name="kularny/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="github" revision="lollipop-caf" groups="broadcom_wlan" />
+<project name="CyanogenMod/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="github" revision="cm-12.1" groups="broadcom_wlan" />
 <project name="CyanogenMod/android_external_lz4" path="external/lz4" remote="github" revision="cm-12.1" />
 <project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" groups="pdk,linux,arm" />
 
