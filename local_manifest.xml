@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote  name="bitbucket"
+         fetch="https://bitbucket.org/" />
+
+<!-- REMOVALS -->
+<remove-project name="android_frameworks_av" />
+<remove-project name="android_frameworks_base" />
+<remove-project name="android_frameworks_native" />
+<remove-project name="android_frameworks_opt_telephony" />
+<remove-project name="android_packages_services_Telephony" />
+<remove-project name="android_vendor_du" />
+<remove-project name="android_build" />
+<remove-project name="platform/bootable/recovery" />
+<remove-project name="platform/external/lz4" />
+<remove-project name="android_external_f2fs-tools" />
+<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+
+<!-- DEVICE -->
+<project name="kularny/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="m-caf" />
+<project name="kularny/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="m-caf" />
+     
+<!-- VENDOR -->
+<project name="kularny/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="m-caf" />
+<project name="kularny/android_vendor_du" path="vendor/du" remote="github" revision="m-caf" />
+     
+<!-- KERNEL -->
+<project name="kularny/GeniSys.Kernel" path="kernel/samsung/smdk4412" remote="github" revision="smdk4210" />
+
+<!-- BUILD -->
+<project name="kularny/android_build_du" path="build" remote="github" revision="m-caf" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+</project>
+
+<!-- EXTRAS -->
+<project name="kularny/android_frameworks_av_du" path="frameworks/av" remote="github" revision="m-caf" />
+<project name="kularny/android_frameworks_base_du" path="frameworks/base" remote="github" revision="m" />
+<project name="kularny/android_frameworks_native_du" path="frameworks/native" remote="github" revision="m-caf" />
+<project name="kularny/android_frameworks_opt_telephony_du" path="frameworks/opt/telephony" remote="github" revision="m" />
+<project name="kularny/android_packages_services_Telephony_du" path="packages/services/Telephony" remote="github" revision="m" />
+<project name="kularny/android_hardware_samsung" path="hardware/samsung" remote="github" revision="m-caf" />
+<project name="kularny/android_external_stlport" path="external/stlport" remote="github" revision="m-caf" />
+<project name="kularny/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="m-caf" />
+<project name="kularny/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-6.0" groups="pdk" />
+<project name="kularny/android_external_lz4" path="external/lz4" remote="github" revision="android-6.0" groups="pdk-cw-fs,pdk-fs" />
+<project name="kularny/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="android-6.0" />
+<project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" groups="pdk,linux,arm" />
+
+</manifest>
