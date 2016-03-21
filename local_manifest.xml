@@ -10,6 +10,7 @@
 <remove-project name="android_frameworks_native" />
 <remove-project name="android_frameworks_opt_telephony" />
 <remove-project name="android_packages_services_Telephony" />
+<remove-project name="android_system_media" />
 <remove-project name="android_vendor_du" />
 <remove-project name="android_build" />
 <remove-project name="platform/bootable/recovery" />
@@ -39,9 +40,12 @@
 <project name="kularny/android_frameworks_native_du" path="frameworks/native" remote="github" revision="m-caf" />
 <project name="kularny/android_frameworks_opt_telephony_du" path="frameworks/opt/telephony" remote="github" revision="m" />
 <project name="kularny/android_packages_services_Telephony_du" path="packages/services/Telephony" remote="github" revision="m" />
+<project name="kularny/android_system_media_du" path="system/media" remote="github" revision="m-caf" />
 <project name="kularny/android_hardware_samsung" path="hardware/samsung" remote="github" revision="m-caf" />
 <project name="kularny/android_external_stlport" path="external/stlport" remote="github" revision="m-caf" />
 <project name="kularny/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="m-caf" />
+<project name="kularny/android_external_ffmpeg" path="external/ffmpeg" remote="github" revision="m-caf" />
+<project name="kularny/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="m-caf" />
 <project name="kularny/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-6.0" groups="pdk" />
 <project name="kularny/android_external_lz4" path="external/lz4" remote="github" revision="android-6.0" groups="pdk-cw-fs,pdk-fs" />
 <project name="kularny/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="android-6.0" />
