@@ -44,6 +44,7 @@
 <project name="kularny/android_hardware_samsung" path="hardware/samsung" remote="github" revision="m-caf" />
 <project name="kularny/android_external_stlport" path="external/stlport" remote="github" revision="m-caf" />
 <project name="kularny/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="m-caf" />
+<project name="kularny/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="m-caf" />
 <project name="kularny/android_external_ffmpeg" path="external/ffmpeg" remote="github" revision="m-caf" />
 <project name="kularny/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="m-caf" />
 <project name="kularny/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-6.0" groups="pdk" />
