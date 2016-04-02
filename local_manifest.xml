@@ -24,7 +24,7 @@
      
 <!-- VENDOR -->
 <project name="kularny/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="m-caf" />
-<project name="kularny/android_vendor_du" path="vendor/du" remote="github" revision="m-caf" />
+<project name="kularny/android_vendor_du" path="vendor/du" remote="github" revision="m" />
      
 <!-- KERNEL -->
 <project name="kularny/GeniSys.Kernel" path="kernel/samsung/smdk4412" remote="github" revision="smdk4210" />
