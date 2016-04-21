@@ -45,8 +45,9 @@
 <project name="kularny/android_external_stlport" path="external/stlport" remote="github" revision="m-caf" />
 <project name="kularny/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="m-caf" />
 <project name="kularny/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="m-caf" />
-<project name="kularny/android_packages_apps_AudioFX" path="packages/apps/AudioFX" remote="github" revision="m-caf" />
-<project name="kularny/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="github" revision="m-caf" />
+<project name="kularny/android_packages_apps_Apollo" path="packages/apps/Apollo" remote="github" revision="android-6.0" />
+<project name="kularny/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="github" revision="android-6.0" />
+<project name="kularny/android_packages_apps_OTAUpdates" path="packages/apps/OTAUpdates" remote="github" revision="aosp" />
 <project name="kularny/android_external_ffmpeg" path="external/ffmpeg" remote="github" revision="m-caf" />
 <project name="kularny/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="m-caf" />
 <project name="kularny/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-6.0" groups="pdk" />
