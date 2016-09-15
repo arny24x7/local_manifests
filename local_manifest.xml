@@ -18,7 +18,7 @@
 <remove-project name="platform/external/lz4" />
 <remove-project name="android_external_f2fs-tools" />
 <remove-project name="platform/external/e2fsprogs" />
-<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+<remove-project name="arm-linux-androideabi-4.9" />
 
 <!-- DEVICE -->
 <project name="kularny/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="m-caf" />
